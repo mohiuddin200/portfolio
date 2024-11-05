@@ -191,13 +191,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Mohiuddin-64bit",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/mohiuddin_200",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "www.linkedin.com/in/mohiuddin200",
   },
 ];
