@@ -75,7 +75,7 @@ export const projects = [
     title: "Pet Adoption ",
     des: "A group project of a pet adoption website, built with Next.js and TypeScript, allowing users to view pets, post, and request for adoption. Admin can control user activity. My part was handling the frontend part.",
     img: "/projectImg/p1.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/mui.svg", "/redux.svg"],
     link: "https://pet-adoptionbd.vercel.app/",
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     title: "BloodCircle - Blood Donation Platform",
     des: "This platform connects blood donors and seekers, offering an intuitive user interface for easy navigation and search functionalities.",
     img: "/projectImg/p2.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg"],
     link: "https://bloodcircle.vercel.app/",
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     title: "Restaurant website for Gang-Shalik",
     des: "The Gangshalik restaurant website is a modern, responsive platform built with Next.js, Tailwind CSS, ShadCN, and TypeScript.",
     img: "/projectImg/p3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://gang-shalik.vercel.app/",
   },
   // {
