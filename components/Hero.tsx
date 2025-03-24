@@ -1,4 +1,4 @@
-import { FaDownload } from "react-icons/fa";
+import { FaDownload, FaPhone, FaWhatsapp } from "react-icons/fa";
 import { FaCalendarAlt } from "react-icons/fa";
 
 import MagicButton from "./MagicButton";
@@ -94,29 +94,42 @@ const Hero = () => {
               alt="hero"
             />
           </div>
-          <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-12 mt-12 md:mt-0">
-            <a
-              target="_blank"
-              href="https://drive.google.com/file/d/163gBBaat3VjuNW-PtQZXWT0zqmtboODs/view"
-            >
-              <MagicButton
-                title="Download Resume"
-                icon={<FaDownload />}
-                position="left"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://calendly.com/mohiuddin200/consulting-about-custom-website-building"
-            >
-              <MagicButton
-                title="Schedule a meeting"
-                icon={<FaCalendarAlt />}
-                position="right"
-              />
-            </a>
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-12 mt-12 md:mt-0">
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/163gBBaat3VjuNW-PtQZXWT0zqmtboODs/view"
+              >
+                <MagicButton
+                  title="Download Resume"
+                  icon={<FaDownload />}
+                  position="left"
+                />
+              </a>
+              <a
+                target="_blank"
+                href="https://calendly.com/mohiuddin200/consulting-about-custom-website-building"
+              >
+                <MagicButton
+                  title="Schedule a meeting"
+                  icon={<FaCalendarAlt />}
+                  position="right"
+                />
+              </a>
+            </div>
+            <div className="flex justify-center items-center ">
+              <a
+                target="_blank"
+                href="https://wa.me/01307483244"
+              >
+                <MagicButton
+                  title="Whatsapp"
+                  icon={<FaWhatsapp />}
+                  position="right"
+                />
+              </a>
+            </div>
           </div>
-          <div></div>
         </div>
       </div>
     </div>
